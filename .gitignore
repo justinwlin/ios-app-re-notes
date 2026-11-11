@@ -1,0 +1,42 @@
+# Local app artifacts and analysis caches
+/artifacts/
+/downloads/
+/extracted/
+/exports/
+/reports/
+/local/
+*.ipa
+*.zip
+*.app/
+*.hop
+*.hop/
+*.dylib
+*.framework/
+*.patched
+global-metadata.dat
+*.mp4
+*.mkv
+*.webm
+*.m4a
+*.vtt
+*.srt
+*.info.json
+*.tmp.json
+
+# Signing/account material
+.env
+.env.*
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.mobiledevicepairing
+
+# Tool state
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.codebase-memory/
+

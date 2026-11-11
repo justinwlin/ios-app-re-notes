@@ -1,0 +1,512 @@
+{
+  "channel": "Bryce Bostwick",
+  "channel_url": "https://www.youtube.com/@brycedotco/videos",
+  "scope": "Public uploads listed on the Videos tab; excludes Shorts, live streams, unavailable and unlisted videos.",
+  "indexed_on": "2026-11-02",
+  "video_count": 10,
+  "captions_downloaded": 10,
+  "duration_seconds": 18687,
+  "videos": [
+    {
+      "id": "Dt4o7hz0B60",
+      "title": "This Filename Breaks iOS, And That's Boring Now",
+      "url": "https://www.youtube.com/watch?v=Dt4o7hz0B60",
+      "upload_date": "20260917",
+      "duration_seconds": 291,
+      "caption_status": "downloaded",
+      "caption_type": "automatic",
+      "caption_language": "en-orig",
+      "caption_sha256": "2e36dcda29c5148dcfbd4d99be7b8349649232bb0da3791b5edc522afb5ca248",
+      "chapters": [],
+      "creator_links": []
+    },
+    {
+      "id": "SuQGQ1vh9k0",
+      "title": "How Apple Replaces Entire Frameworks",
+      "url": "https://www.youtube.com/watch?v=SuQGQ1vh9k0",
+      "upload_date": "20260131",
+      "duration_seconds": 4524,
+      "caption_status": "downloaded",
+      "caption_type": "automatic",
+      "caption_language": "en-orig",
+      "caption_sha256": "72dd3cf7ee4085a7e1c6da82745632b373a0c4e583f33dc365a23c21eee720c3",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "The problem of UI checks",
+          "end_time": 123
+        },
+        {
+          "start_time": 123,
+          "title": "Basic method swizzling",
+          "end_time": 225
+        },
+        {
+          "start_time": 225,
+          "title": "Scaling swizzling",
+          "end_time": 329
+        },
+        {
+          "start_time": 329,
+          "title": "Context and subclassing",
+          "end_time": 656
+        },
+        {
+          "start_time": 656,
+          "title": "Analyzing Apple's solution",
+          "end_time": 780
+        },
+        {
+          "start_time": 780,
+          "title": "Understanding trampolines",
+          "end_time": 1004
+        },
+        {
+          "start_time": 1004,
+          "title": "Implementing custom trampolines",
+          "end_time": 1340
+        },
+        {
+          "start_time": 1340,
+          "title": "Implementing the handler",
+          "end_time": 1693
+        },
+        {
+          "start_time": 1693,
+          "title": "Finalizing the swizzler",
+          "end_time": 2011
+        },
+        {
+          "start_time": 2011,
+          "title": "Scalability challenges",
+          "end_time": 2343
+        },
+        {
+          "start_time": 2343,
+          "title": "Memory remapping",
+          "end_time": 3527
+        },
+        {
+          "start_time": 3527,
+          "title": "Dynamic trampolines",
+          "end_time": 4147
+        },
+        {
+          "start_time": 4147,
+          "title": "Massive swizzling",
+          "end_time": 4524
+        }
+      ],
+      "creator_links": [
+        "https://github.com/brycebostwick/SwizzleEverything/",
+        "https://web.archive.org/web/20250131045152/https://landonf.org/code/objc/imp_implementationWithBlock.20110413.html",
+        "https://www.mikeash.com/pyblog/friday-qa-2012-02-03-ring-buffers-and-mirrored-memory-part-i.html",
+        "https://bryce.co"
+      ]
+    },
+    {
+      "id": "NdJ_y1c_j_I",
+      "title": "Apple\u2019s Widget Backdoor",
+      "url": "https://www.youtube.com/watch?v=NdJ_y1c_j_I",
+      "upload_date": "20250511",
+      "duration_seconds": 2218,
+      "caption_status": "downloaded",
+      "caption_type": "uploader",
+      "caption_language": "en-US",
+      "caption_sha256": "bc8a4147af933cab9d46fcee40c3467c7099adccf27d2e17eb3fd7464710eb4e",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "The secret clock backdoor",
+          "end_time": 69
+        },
+        {
+          "start_time": 69,
+          "title": "iOS widget limitations",
+          "end_time": 104
+        },
+        {
+          "start_time": 104,
+          "title": "Abusing the timer API",
+          "end_time": 341
+        },
+        {
+          "start_time": 341,
+          "title": "Reverse engineering Apple",
+          "end_time": 528
+        },
+        {
+          "start_time": 528,
+          "title": "Restoring private API access",
+          "end_time": 720
+        },
+        {
+          "start_time": 720,
+          "title": "Complex motion with geometry",
+          "end_time": 954
+        },
+        {
+          "start_time": 954,
+          "title": "Sprite based animations",
+          "end_time": 1270
+        },
+        {
+          "start_time": 1270,
+          "title": "Advanced timer animation",
+          "end_time": 1695
+        },
+        {
+          "start_time": 1695,
+          "title": "Optimizing frame animations",
+          "end_time": 2082
+        },
+        {
+          "start_time": 2082,
+          "title": "The ultimate widget trick",
+          "end_time": 2218
+        }
+      ],
+      "creator_links": [
+        "https://github.com/brycebostwick/WidgetAnimation/",
+        "https://github.com/octree/ClockHandRotationKit",
+        "https://github.com/everettjf/Xcode13ClockHandRotationEffectModifier",
+        "https://github.com/TopWidgets/SwingAnimation",
+        "https://github.com/tangtiancheng/DouYinComment",
+        "https://bryce.co"
+      ]
+    },
+    {
+      "id": "F5m2JxplnXk",
+      "title": "Modding the Gulf of Mexico Back",
+      "url": "https://www.youtube.com/watch?v=F5m2JxplnXk",
+      "upload_date": "20250216",
+      "duration_seconds": 1433,
+      "caption_status": "downloaded",
+      "caption_type": "automatic",
+      "caption_language": "en-orig",
+      "caption_sha256": "9c3c7dcf8bf1bc7ec1a80e1048439c3e0fa8d71b48506c45cf1bd7647de47f95",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Introduction",
+          "end_time": 8
+        },
+        {
+          "start_time": 8,
+          "title": "Reverse engineering JSON",
+          "end_time": 265
+        },
+        {
+          "start_time": 265,
+          "title": "Decoding protobuf labels",
+          "end_time": 788
+        },
+        {
+          "start_time": 788,
+          "title": "Hooking into global functions",
+          "end_time": 1007
+        },
+        {
+          "start_time": 1007,
+          "title": "Developing the Chrome plugin",
+          "end_time": 1296
+        },
+        {
+          "start_time": 1296,
+          "title": "Ensuring plugin resilience",
+          "end_time": 1433
+        }
+      ],
+      "creator_links": [
+        "https://fixthegulf.com",
+        "https://github.com/brycebostwick/FixTheGulf"
+      ]
+    },
+    {
+      "id": "ih6gWZDuNME",
+      "title": "Debugging An Undebuggable App",
+      "url": "https://www.youtube.com/watch?v=ih6gWZDuNME",
+      "upload_date": "20250120",
+      "duration_seconds": 1104,
+      "caption_status": "downloaded",
+      "caption_type": "uploader",
+      "caption_language": "en-US",
+      "caption_sha256": "377a8fbbadd7ffbbc85d1d76936534231b21ead53a3632422a984e821946fcd3",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro (ft. Beans the Cat)",
+          "end_time": 36
+        },
+        {
+          "start_time": 36,
+          "title": "PT_DENY_ATTACH",
+          "end_time": 157
+        },
+        {
+          "start_time": 157,
+          "title": "Bypassing PT_DENY_ATTACH",
+          "end_time": 538
+        },
+        {
+          "start_time": 538,
+          "title": "Reboot/Respring",
+          "end_time": 794
+        },
+        {
+          "start_time": 794,
+          "title": "Injecting Code",
+          "end_time": 1104
+        }
+      ],
+      "creator_links": [
+        "https://bryce.co/undebuggable/"
+      ]
+    },
+    {
+      "id": "vohvFpjNBz8",
+      "title": "NSURLProtocol: How I Stole an App For My Wedding",
+      "url": "https://www.youtube.com/watch?v=vohvFpjNBz8",
+      "upload_date": "20240906",
+      "duration_seconds": 3385,
+      "caption_status": "downloaded",
+      "caption_type": "automatic",
+      "caption_language": "en",
+      "caption_sha256": "1f5be9135d8fd24fd8921aa2d87cdeb827a6c4eabe60d09502815b07e21bfb27",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Intro",
+          "end_time": 110
+        },
+        {
+          "start_time": 110,
+          "title": "Inspecting HTTP Traffic",
+          "end_time": 246
+        },
+        {
+          "start_time": 246,
+          "title": "Decompiling (Maybe)",
+          "end_time": 363
+        },
+        {
+          "start_time": 363,
+          "title": "NSURLProtocol",
+          "end_time": 1020
+        },
+        {
+          "start_time": 1020,
+          "title": "Making a Framework",
+          "end_time": 1652
+        },
+        {
+          "start_time": 1652,
+          "title": "Cache Busting",
+          "end_time": 2184
+        },
+        {
+          "start_time": 2184,
+          "title": "Crossword Replacement",
+          "end_time": 2435
+        },
+        {
+          "start_time": 2435,
+          "title": "Webviews & Other Puzzles",
+          "end_time": 2909
+        },
+        {
+          "start_time": 2909,
+          "title": "New UI",
+          "end_time": 3342
+        },
+        {
+          "start_time": 3342,
+          "title": "Wrapping Up",
+          "end_time": 3385
+        }
+      ],
+      "creator_links": [
+        "https://bryce.co"
+      ]
+    },
+    {
+      "id": "KDVibKGtSVI",
+      "title": "Tricking iOS into Animating Icons",
+      "url": "https://www.youtube.com/watch?v=KDVibKGtSVI",
+      "upload_date": "20240527",
+      "duration_seconds": 1476,
+      "caption_status": "downloaded",
+      "caption_type": "automatic",
+      "caption_language": "en",
+      "caption_sha256": "11cb20eee030e932ed4a2dd36c33c4bbd3b1b78240ad41a3391cc3b2d294fa3b",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "The alternate icon API",
+          "end_time": 221
+        },
+        {
+          "start_time": 221,
+          "title": "Analyzing the UI framework",
+          "end_time": 395
+        },
+        {
+          "start_time": 395,
+          "title": "Implementing the bypass",
+          "end_time": 472
+        },
+        {
+          "start_time": 472,
+          "title": "Background icon updates",
+          "end_time": 920
+        },
+        {
+          "start_time": 920,
+          "title": "Fixing service errors",
+          "end_time": 1362
+        },
+        {
+          "start_time": 1362,
+          "title": "Creating icon animations",
+          "end_time": 1476
+        }
+      ],
+      "creator_links": [
+        "https://github.com/bryce-co/AnimatedAppIcons",
+        "https://bryce.co/animated-app-icons/"
+      ]
+    },
+    {
+      "id": "SpHl5_0n3Ps",
+      "title": "Hacking Disneyland's App to fix a Freeze",
+      "url": "https://www.youtube.com/watch?v=SpHl5_0n3Ps",
+      "upload_date": "20240306",
+      "duration_seconds": 889,
+      "caption_status": "downloaded",
+      "caption_type": "automatic",
+      "caption_language": "en",
+      "caption_sha256": "d0746b68f412599b56edd3d0b26dfdee87278d2aa8164626524e24bc4d911a85",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Identifying the bug",
+          "end_time": 63
+        },
+        {
+          "start_time": 63,
+          "title": "Debugging the freeze",
+          "end_time": 149
+        },
+        {
+          "start_time": 149,
+          "title": "Analyzing UI hierarchy",
+          "end_time": 227
+        },
+        {
+          "start_time": 227,
+          "title": "Investigating gestures",
+          "end_time": 313
+        },
+        {
+          "start_time": 313,
+          "title": "Disassembling the binary",
+          "end_time": 448
+        },
+        {
+          "start_time": 448,
+          "title": "Developing a workaround",
+          "end_time": 593
+        },
+        {
+          "start_time": 593,
+          "title": "Pinpointing the root cause",
+          "end_time": 747
+        },
+        {
+          "start_time": 747,
+          "title": "Fixing the app",
+          "end_time": 889
+        }
+      ],
+      "creator_links": [
+        "https://bryce.co"
+      ]
+    },
+    {
+      "id": "nwWhpS1q9Ek",
+      "title": "Modding Plugins back into Xcode",
+      "url": "https://www.youtube.com/watch?v=nwWhpS1q9Ek",
+      "upload_date": "20240222",
+      "duration_seconds": 1616,
+      "caption_status": "downloaded",
+      "caption_type": "automatic",
+      "caption_language": "en",
+      "caption_sha256": "fdc0308fd11f9aa44bd685726f3bfcc9393f683726fe41c3472245d8fb78c956",
+      "chapters": [],
+      "creator_links": [
+        "https://github.com/brycepauken/XcodePluginLoader",
+        "https://bryce.co/xcode-plugin-loader/",
+        "https://bryce.co/xcode-vim-map/"
+      ]
+    },
+    {
+      "id": "YW3jL2gI9IE",
+      "title": "Modding TikTok to only show Cat Videos",
+      "url": "https://www.youtube.com/watch?v=YW3jL2gI9IE",
+      "upload_date": "20231211",
+      "duration_seconds": 1751,
+      "caption_status": "downloaded",
+      "caption_type": "uploader",
+      "caption_language": "en-US",
+      "caption_sha256": "e661ef89b234b4be1448e1136a66e626dfc6d6dcd852d4467b9035e8a23adf5a",
+      "chapters": [
+        {
+          "start_time": 0,
+          "title": "Project goal and approach",
+          "end_time": 96
+        },
+        {
+          "start_time": 96,
+          "title": "Network traffic analysis",
+          "end_time": 269
+        },
+        {
+          "start_time": 269,
+          "title": "Debugging the UI layer",
+          "end_time": 423
+        },
+        {
+          "start_time": 423,
+          "title": "Disassembling the binary",
+          "end_time": 564
+        },
+        {
+          "start_time": 564,
+          "title": "Locating the data source",
+          "end_time": 1170
+        },
+        {
+          "start_time": 1170,
+          "title": "Implementing the hook",
+          "end_time": 1494
+        },
+        {
+          "start_time": 1494,
+          "title": "Initial testing and issues",
+          "end_time": 1554
+        },
+        {
+          "start_time": 1554,
+          "title": "Refining the modification",
+          "end_time": 1645
+        },
+        {
+          "start_time": 1645,
+          "title": "Final app branding",
+          "end_time": 1751
+        }
+      ],
+      "creator_links": []
+    }
+  ]
+}
