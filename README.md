@@ -93,7 +93,7 @@ A free Apple Account signature lasts 7 days. After that, the app does not open.
 - **SideStore:** tap the days counter in **My Apps**, or
   [automate it with Shortcuts](docs/sidestore.md#refresh-from-shortcuts-every-few-days).
 
-A free account also allows only 3 sideloaded apps at once and 10 new App IDs per
+A free account also allows only 3 sideloaded apps at once (SideStore counts as one) and 10 new App IDs per
 7 days. See [Free Apple Account limits](docs/sidestore.md#free-apple-account-limits).
 
 ### If something fails
