@@ -9,14 +9,15 @@ branches, or when you want a graphical view of callers and pseudocode.
 
 ## The workflow
 
-1. Pair with the app's IL2CPP metadata. A metadata parser based on the
-   upstream layouts recovers the `Assembly-CSharp.dll` type/method records.
-3. Locate the assembly's code-generation module and method-pointer table in the
+1. Pair the extracted `UnityFramework` with the app's IL2CPP metadata. A metadata
+   parser based on the upstream layouts recovers the `Assembly-CSharp.dll`
+   type/method records.
+2. Locate the assembly's code-generation module and method-pointer table in the
    native framework. Use metadata method token row IDs to resolve native addresses.
-4. Select the methods that own the behavior for focused inspection.
-5. Use Xcode's LLVM disassembler to inspect the surrounding control flow and
+3. Select the methods that own the behavior for focused inspection.
+4. Use Xcode's LLVM disassembler to inspect the surrounding control flow and
    verify any patch instructions.
-6. Optional: open the extracted `UnityFramework` in Hopper as an ARM64 Mach-O
+5. Optional: open the extracted `UnityFramework` in Hopper as an ARM64 Mach-O
    binary, define each function as a procedure, and export its pseudocode.
 
 Whole-framework Hopper analysis of a large Unity binary can take a very long time.
