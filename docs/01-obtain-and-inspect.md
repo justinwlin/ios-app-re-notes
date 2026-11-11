@@ -11,12 +11,20 @@
 | Decompilation | An approximation of those instructions in readable pseudocode, not the original project. |
 | Signing / sideloading | Preparing an app's signature and installing it on the device. |
 
-## Use an input you are entitled to inspect
+## Get a decrypted IPA
 
-Use an app you built yourself, an open-source app, or an app whose license and
-terms permit inspection and modification. Record the source, acquisition date,
-bundle identifier, version, and SHA-256. A filename containing `Decrypted` is a
-label to verify, not proof.
+Download decrypted IPAs from [ARMConverter's US store](https://armconverter.com/store/us).
+
+1. Open <https://armconverter.com/store/us>.
+2. Create an ARMConverter account.
+3. Log in with that account.
+4. Search for the app and download the **IPA** for the version you want to inspect.
+5. Save the `.ipa` locally, outside Git.
+
+Only use apps whose license and terms permit inspection and modification.
+Record the download URL, acquisition date, bundle identifier, version, and
+SHA-256. A filename containing `Decrypted` is a label to verify, not proof. Run
+the encryption-header check below on every download.
 
 ## Keep the input and create an inspection copy
 

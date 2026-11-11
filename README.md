@@ -25,7 +25,8 @@ flowchart LR
 
 1. [Agent handbook](knowledge/AGENT_HANDBOOK.md): how to choose a strategy, trace
    state and callers, install hooks, preserve completion, and validate changes.
-2. [Obtain and inspect the IPA](docs/01-obtain-and-inspect.md)
+2. [Obtain and inspect the IPA](docs/01-obtain-and-inspect.md). Decrypted IPAs come from
+   [ARMConverter's US store](https://armconverter.com/store/us) (account and login required).
 3. [Map code and use Hopper](docs/02-hopper-and-il2cpp.md)
 4. [Choose binary patching or framework injection](docs/03-patch-and-package.md)
 5. [Sign, sideload, trust, and test on iPhone](docs/04-sideload-iphone.md)

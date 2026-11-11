@@ -198,6 +198,10 @@ A decrypted IPA is a normal IPA whose executable can be inspected and modified.
 It is still compiled. How this repository treats that file, including hash and
 `Info.plist` checks, is [Obtain and inspect an IPA](01-obtain-and-inspect.md).
 
+Download the IPA from [ARMConverter's US store](https://armconverter.com/store/us).
+You need an ARMConverter account and must be logged in to download. The steps are
+in [Get a decrypted IPA](01-obtain-and-inspect.md#get-a-decrypted-ipa).
+
 For an iPhone, use an **IPA**. **APK** is the Android package format. If the IPA
 already contains its changes, skip the injection step below and continue to
 copying that IPA to the phone.
