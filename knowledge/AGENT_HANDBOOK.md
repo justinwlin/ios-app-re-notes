@@ -57,7 +57,9 @@ Validate table boundaries, method token indexes, pointer alignment, and executab
 section membership. A metadata name is useful evidence, but its associated native
 instructions determine what the compiled build does.
 
-For Hopper, open the correct native executable and architecture, navigate to a
+Hopper is optional. Agents can usually work from metadata mapping, `otool`,
+`llvm-objdump`, and scripts. Use Hopper only when raw disassembly is not enough.
+In Hopper, open the correct native executable and architecture, navigate to a
 known entry address, define a procedure if needed, and inspect assembly alongside
 pseudocode. Save the database and record which procedures were actually analyzed.
 If full analysis stalls, a focused disassembly can still answer a narrow question.

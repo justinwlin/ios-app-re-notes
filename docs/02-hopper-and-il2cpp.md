@@ -1,22 +1,29 @@
-# 2. Map code and inspect it in Hopper
+# 2. Map code and inspect it (Hopper optional)
+
+## Hopper is optional
+
+You usually do not need Hopper. Agents can do this work with a metadata parser,
+`xcrun otool`, `xcrun llvm-objdump`, and Python scripts. Use Hopper only when the
+raw disassembly is too hard to follow, for example a long function with many
+branches, or when you want a graphical view of callers and pseudocode.
 
 ## The workflow
 
-1. Open the extracted `UnityFramework` in Hopper as an ARM64 Mach-O binary.
-2. Pair it with the app's IL2CPP metadata. A metadata parser based on the
+1. Pair with the app's IL2CPP metadata. A metadata parser based on the
    upstream layouts recovers the `Assembly-CSharp.dll` type/method records.
 3. Locate the assembly's code-generation module and method-pointer table in the
    native framework. Use metadata method token row IDs to resolve native addresses.
 4. Select the methods that own the behavior for focused inspection.
-5. Define each function as a procedure in Hopper and export its pseudocode.
-6. Use Xcode's LLVM disassembler to inspect the surrounding control flow and
+5. Use Xcode's LLVM disassembler to inspect the surrounding control flow and
    verify any patch instructions.
+6. Optional: open the extracted `UnityFramework` in Hopper as an ARM64 Mach-O
+   binary, define each function as a procedure, and export its pseudocode.
 
 Whole-framework Hopper analysis of a large Unity binary can take a very long time.
 Stop it and work on selected addresses if needed. Record which procedures were
 actually analyzed. One exported function does not mean the app is decompiled.
 
-## Hopper steps you can repeat
+## Hopper steps you can repeat (optional)
 
 Open the native executable, choose its correct architecture, and navigate to a
 known method address. Define the function with the **P / Procedure** toolbar
@@ -51,7 +58,7 @@ as layout references, or run a compatible metadata tool.
 Layouts change between metadata versions. Validate the layout for each build;
 this document is not a universal metadata parser.
 
-## An assembly check independent of Hopper
+## Inspect assembly without Hopper
 
 ```sh
 BINARY="artifacts/myapp-1.0/extracted/Payload/MyApp.app/Frameworks/UnityFramework.framework/UnityFramework"

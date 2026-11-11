@@ -1,7 +1,7 @@
 # iOS app reverse-engineering notes
 
 A repeatable workflow for understanding an iOS app, making a targeted local
-modification, and signing it for an iPhone. It covers IPA inspection, Hopper,
+modification, and signing it for an iPhone. It covers IPA inspection, optional Hopper use,
 Unity IL2CPP method mapping, direct binary patches, framework injection, and
 sideloading with Sideloadly or SideStore.
 
@@ -14,7 +14,7 @@ before signing. A Unity IL2CPP app can use a direct machine-code patch instead.
 flowchart LR
     A[Obtain an IPA you may inspect] --> B[Hash and extract]
     B --> C[Identify engine and executable]
-    C --> D[Map methods and inspect in Hopper]
+    C --> D[Map methods and inspect the code]
     D --> E[Patch code or build a tweak framework]
     E --> F[Verify and package]
     F --> G[Sign with Sideloadly or SideStore]
@@ -27,7 +27,7 @@ flowchart LR
    state and callers, install hooks, preserve completion, and validate changes.
 2. [Obtain and inspect the IPA](docs/01-obtain-and-inspect.md). Decrypted IPAs come from
    [ARMConverter's US store](https://armconverter.com/store/us) (account and login required).
-3. [Map code and use Hopper](docs/02-hopper-and-il2cpp.md)
+3. [Map code and inspect it](docs/02-hopper-and-il2cpp.md). Hopper is optional.
 4. [Choose binary patching or framework injection](docs/03-patch-and-package.md)
 5. [Sign, sideload, trust, and test on iPhone](docs/04-sideload-iphone.md)
 6. [Sideload any later IPA with SideStore](docs/sidestore.md)
@@ -45,8 +45,17 @@ version, and the [sideload record](templates/sideload-app.md) for each install.
 Method addresses and bytes are specific to one binary. Reuse the workflow, not
 the offsets.
 
-Tools: macOS, Xcode command-line tools, Hopper, Python, Unicorn, and Sideloadly or
-SideStore.
+Tools: macOS, Xcode command-line tools, Python, Unicorn, and Sideloadly or
+SideStore. Hopper is optional; agents usually do not need it.
+
+## Consider Android first
+
+If the app also exists for Android, an APK on an Android phone can be easier to
+work with. Java and Kotlin code in an APK decompiles to readable source with tools
+such as [jadx](https://github.com/skylot/jadx), and installing a modified APK does
+not need Apple signing or a seven-day refresh. A Unity IL2CPP game is still native
+code on Android (`libil2cpp.so`), so the mapping steps in this repository still
+apply to it.
 
 ## Scope
 

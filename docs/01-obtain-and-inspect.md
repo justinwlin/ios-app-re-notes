@@ -5,7 +5,7 @@
 | Term | Meaning here |
 | --- | --- |
 | IPA | A ZIP-format package containing an iOS app under `Payload/`. |
-| APK | An Android app package; it is not the file used for this iPhone workflow. |
+| APK | An Android app package. Not used in this iPhone workflow, but often easier to read; see [Consider Android first](../README.md#consider-android-first). |
 | Decrypted IPA | The packaged native code is available to inspect rather than encrypted. It is still compiled code. |
 | Disassembly | Machine instructions displayed as assembly. |
 | Decompilation | An approximation of those instructions in readable pseudocode, not the original project. |
